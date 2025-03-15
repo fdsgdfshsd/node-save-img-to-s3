@@ -4,4 +4,4 @@ Pillow
 boto3==1.34.148
 requests
 botocore
-imageio
+imageio[ffmpeg]
