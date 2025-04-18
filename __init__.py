@@ -1,7 +1,7 @@
-try:
-    from . import prestartup_script
-except Exception as e:
-    print(f"Ошибка при выполнении prepare_environment: {e}")
+# try:
+#     from . import prestartup_script
+# except Exception as e:
+#     print(f"Ошибка при выполнении prepare_environment: {e}")
 
 from .nodes.save_image_url_node import SaveImageToS3
 from .nodes.save_video_url_node import SaveVideoToS3
